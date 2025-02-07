@@ -14,7 +14,7 @@
         "tab": "Docenten omgeving",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Snel van start",
             "pages": [
               "introduction",
               "quickstart",
@@ -24,12 +24,12 @@
           {
             "group": "Essentials",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "docenten-omgeving/markdown",
+              "docenten-omgeving/code",
+              "docenten-omgeving/images",
+              "docenten-omgeving/settings",
+              "docenten-omgeving/navigation",
+              "docenten-omgeving/reusable-snippets"
             ]
           }
         ]
@@ -38,17 +38,17 @@
         "tab": "Leerling omgeving",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Snel van start",
             "pages": [
-              "api-reference/introduction"
+              "leerling-omgeving/introduction"
             ]
           },
           {
             "group": "Endpoint Examples",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              "leerling-omgeving/endpoint/get",
+              "leerling-omgeving/endpoint/create",
+              "leerling-omgeving/endpoint/delete"
             ]
           }
         ]
@@ -75,8 +75,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/sportfolio-licht.png",
+    "dark": "/logo/sportfolio-donker.png"
   },
   "navbar": {
     "links": [
