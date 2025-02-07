@@ -33,9 +33,17 @@
             ]
           },
           {
-            "group": "Essentials 1", "collapsed": true,
-            "expandable": true,
-            "pages": ["docenten-omgeving/markdown", "docenten-omgeving/code"]
+            "group": "Essentials 1",
+            "pages": [
+              {
+                "group": "Markdown Basics",
+                "pages": ["docenten-omgeving/markdown"]
+              },
+              {
+                "group": "Code Examples",
+                "pages": ["docenten-omgeving/code"]
+              }
+            ]
           }
         ]
       },
