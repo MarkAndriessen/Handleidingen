@@ -31,6 +31,10 @@
               "docenten-omgeving/navigation",
               "docenten-omgeving/reusable-snippets"
             ]
+          }   {
+            "group": "Essentials 1",
+            "pages": ["docenten-omgeving/markdown", "docenten-omgeving/code", "docenten-omgeving/images"]
+            ]
           }
         ]
       },
