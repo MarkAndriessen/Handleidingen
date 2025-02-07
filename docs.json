@@ -1,17 +1,17 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "maple",
+  "name": "Handleidingen",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#467ff7",
     "light": "#07C983",
-    "dark": "#15803D"
+    "dark": "#467ff7"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Docenten omgeving",
         "groups": [
           {
             "group": "Get Started",
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Leerling omgeving",
         "groups": [
           {
             "group": "API Documentation",
