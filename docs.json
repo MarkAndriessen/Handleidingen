@@ -33,7 +33,8 @@
             ]
           },
           {
-            "group": "Essentials 1",
+            "group": "Essentials 1", "collapsible": true,
+  "collapsed": true,
             "pages": ["docenten-omgeving/markdown", "docenten-omgeving/code"]
           }
         ]
