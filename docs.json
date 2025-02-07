@@ -1,10 +1,10 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "Handleidingen",
   "colors": {
     "primary": "#467ff7",
-    "light": "#07C983",
+    "light": "#467ff7",
     "dark": "#467ff7"
   },
   "favicon": "/favicon.svg",
