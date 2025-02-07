@@ -33,7 +33,7 @@
             ]
           }   {
             "group": "Essentials 1",
-            "pages": ["docenten-omgeving/markdown", "docenten-omgeving/code", "docenten-omgeving/images"]
+            "pages": ["docenten-omgeving/markdown", "docenten-omgeving/code"]
             ]
           }
         ]
