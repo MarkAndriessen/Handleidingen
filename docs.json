@@ -8,6 +8,17 @@
     "dark": "#467ff7"
   },
   "favicon": "/favicon.svg",
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:hi@mintlify.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://dashboard.mintlify.com"
+  },
+  "topbarCollapsed": true,
   "navigation": {
     "tabs": [
       {
@@ -36,11 +47,11 @@
             "group": "Essentials 1",
             "pages": [
               {
-                "group": "Markdown Basics",
+                "group": "Markdown",
                 "pages": ["docenten-omgeving/markdown"]
               },
               {
-                "group": "Code Examples",
+                "group": "Code",
                 "pages": ["docenten-omgeving/code"]
               }
             ]
@@ -90,19 +101,6 @@
   "logo": {
     "light": "/logo/sportfolio-licht.png",
     "dark": "/logo/sportfolio-donker.png"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
   },
   "footer": {
     "socials": {
