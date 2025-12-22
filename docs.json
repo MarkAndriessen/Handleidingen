@@ -1,14 +1,54 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
+  "$schema": "https://mintlify.com/docs.json",
   "name": "Handleidingen",
   "colors": {
     "primary": "#467ff7",
     "light": "#467ff7",
     "dark": "#467ff7"
   },
+  "logo": {
+    "light": "/logo/sportfolio-licht.png",
+    "dark": "/logo/sportfolio-donker.png"
+  },
   "favicon": "/favicon.svg",
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
   "navigation": {
+    "global": {
+      "languages": [
+        {
+          "language": "nl",
+          "default": true,
+          "href": "https://mintlify.com"
+        },
+        {
+          "language": "en",
+          "href": "https://mintlify.com"
+        }
+      ],
+      "products": [
+        {
+          "product": "Classroom module",
+          "href": ""
+        },
+        {
+          "product": "Docenten omgeving",
+          "href": ""
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Docenten omgeving",
@@ -37,11 +77,15 @@
             "pages": [
               {
                 "group": "Markdown Basics",
-                "pages": ["docenten-omgeving/markdown"]
+                "pages": [
+                  "docenten-omgeving/markdown"
+                ]
               },
               {
                 "group": "Code Examples",
-                "pages": ["docenten-omgeving/code"]
+                "pages": [
+                  "docenten-omgeving/code"
+                ]
               }
             ]
           }
@@ -68,23 +112,5 @@
       }
     ]
   },
-  "logo": {
-    "light": "/logo/sportfolio-licht.png",
-    "dark": "/logo/sportfolio-donker.png"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-  }
+  "footer": {}
 }
